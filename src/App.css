@@ -1,0 +1,44 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: red;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-home, .container-favoritos {
+  text-align: center;
+  margin: 20px;
+}
+
+.container-home select, .container-home button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+}
